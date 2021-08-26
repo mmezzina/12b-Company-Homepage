@@ -56,6 +56,7 @@ p {
     display: flex;
     justify-content: center;
 }
+
 #about .content {
     display: flex;
     width: 100%;
@@ -94,3 +95,21 @@ p {
 }
 
 /* Portfolio */
+#portfolio .subheading {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio .pics {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pics img {
+    width: 25%;
+    height: 350px;
+    margin: 25px;
+    border-radius: 50px;
+}
