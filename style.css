@@ -150,3 +150,30 @@ p {
     align-items: center;
     text-align: center;
 }
+
+/* Contact */
+#contact {
+    width: 100%;
+}
+
+#contact .subheading {
+    display: flex;
+    justify-content: center;
+}
+
+#contact .details {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+#contact .details p {
+    font-size: 24px;
+    text-align: center;
+}
+
+#contact .details img {
+    width: 50px;
+    height: 50px;
+}
