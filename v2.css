@@ -1,11 +1,15 @@
 /* Universal */
+html {
+    background-color: #000;
+}
+
 body {
     background-color: #5b7865;
 }
 
 header {
-    background-color: #5b7865;
-    /* background-color: #000; */
+    /* background-color: #b8d4c2; */
+    background-color: #000;
 }
 
 .subheading{
@@ -176,6 +180,11 @@ nav a:hover {
 #contact {
     width: 100%;
     border-top: 1px solid #000;
+    background-color: #000;
+}
+
+#contact .subheading h2 {
+    color: #fff;
 }
 
 .contact-info {
@@ -187,10 +196,15 @@ nav a:hover {
     justify-content: center;
     width: 75%;
     margin-left: 12.5%;
+    color: #fff;
 }
 
 .contact-info img {
     height: 50px;
     width: 50px;
-    border-radius: 12px;
+    border-radius: 10px;
+}
+
+.versions {
+    background-color: #000;
 }
