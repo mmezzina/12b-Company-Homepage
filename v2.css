@@ -8,17 +8,36 @@ header {
     /* background-color: #000; */
 }
 
-main {
-    background-color: #879c8e;
+.subheading{
+    display: flex;
+    justify-content: center;
+}
+
+.subheading h2 {
+    font-family: "Dancing Script";
+    font-size: 40px;
+    color: #000;
+}
+
+.top {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.top a:link, .top a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.top a:hover {
+    color: #8c3f0d;
 }
 
 /* Header */
 header {
     width: 100%;
     height: 200px;
-    /* border-bottom: 1px solid #000; */
-    position: sticky;
-    top: 0;
+    border-bottom: 1px solid #000;
 }
 
 .banner {
@@ -33,7 +52,6 @@ header {
     font-family: "IM Fell English", Lora, serif;
     font-size: 64px;
     color: #fff;
-    /* font-style: italic; */
     text-decoration: none;
 }
 
@@ -63,27 +81,7 @@ nav a:hover {
     color: #8c3f0d;
 }
 
-/* Additions:
->JS - Collapse bar when scrolling - [logo name --- links] 
-*/
-
-/* Main */
-.subheading{
-    display: flex;
-    justify-content: center;
-}
-
-.subheading h2 {
-    font-family: "Dancing Script";
-    font-size: 40px;
-    color: #000;
-}
-
 /* About Section */
-.about {
-
-}
-
 .about-content {
     display: flex;
     width: 100%;
@@ -177,6 +175,7 @@ nav a:hover {
 /* Contact */
 #contact {
     width: 100%;
+    border-top: 1px solid #000;
 }
 
 .contact-info {
