@@ -5,6 +5,7 @@ body {
 
 header {
     background-color: #5b7865;
+    /* background-color: #000; */
 }
 
 main {
@@ -94,7 +95,7 @@ nav a:hover {
     width: 400px;
     height: 400px;
     border-radius: 50px;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 25px;
 }
 
 .about-bio {
@@ -103,4 +104,40 @@ nav a:hover {
     line-height: 40px;
     text-align: center;
     font-family: "Gowun Batang", serif;
+}
+
+/* Quote */
+.quote-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #beaeb9;
+}
+.quote {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #9d8696;
+    border-radius: 100px 50px;
+    font-family: "Indie Flower";
+    font-weight: 400;
+    font-size: 32px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Portfolio */
+.portfolio-pics {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.portfolio-pics img {
+    width: 20%;
+    height: 350px;
+    margin: 50px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 25px;
 }
