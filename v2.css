@@ -118,14 +118,17 @@ nav a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #beaeb9;
+    /* background-color: #beaeb9; */
+    background-color: #af4f10;
     border-radius: 100px 50px;
 }
 .quote {
     width: 50%;
     display: flex;
     justify-content: center;
-    background-color: #9d8696;
+    /* background-color: #9d8696; */
+    background-color: #8c3f0d;
+    color: #fff;
     border-radius: 100px 50px;
     font-family: "Indie Flower";
     font-weight: 400;
