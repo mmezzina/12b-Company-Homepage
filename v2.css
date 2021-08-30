@@ -1,14 +1,20 @@
 /* Universal */
 html {
-    background-color: #000;
+    background-color: #5b7865;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: #5b7865;
+    /* background-color: #5b7865; */
+    background-color: #aab9af;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: #5b7865;
 }
 
 .subheading{
@@ -40,7 +46,7 @@ header {
 header {
     width: 100%;
     height: 200px;
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
 }
 
 .banner {
@@ -178,8 +184,8 @@ nav a:hover {
 /* Contact */
 #contact {
     width: 100%;
-    border-top: 1px solid #000;
-    background-color: #000;
+    /* border-top: 1px solid #000; */
+    background-color: #5b7865;
 }
 
 #contact .subheading h2 {
@@ -205,5 +211,5 @@ nav a:hover {
 }
 
 .versions {
-    background-color: #000;
+    background-color: #5b7865;
 }
